@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21F79" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CardStock" representedClassName="CardStock" syncable="YES" codeGenerationType="class">
+        <attribute name="aciklama" optional="YES" attributeType="String"/>
+        <attribute name="gorsel" optional="YES" attributeType="Binary"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="kdv" optional="YES" attributeType="String"/>
+        <attribute name="stokAdi" optional="YES" attributeType="String"/>
+        <attribute name="stokBirimi" optional="YES" attributeType="String"/>
+        <attribute name="stokKodu" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="CardStock" positionX="-63" positionY="-18" width="128" height="134"/>
+    </elements>
 </model>
